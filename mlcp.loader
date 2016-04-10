@@ -1,0 +1,3 @@
+$ ~/Projects/mlcp-8.0-4/bin/mlcp.sh import -host localhost -port 8000 \
+-username admin -password admin \
+-directory_filter . -input_file_pattern '.*\.xml' -input_file_path .
